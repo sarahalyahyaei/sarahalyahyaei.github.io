@@ -5,6 +5,7 @@ Date: 9 May 2019
 */
 
 #sarah{
+    display: block;
   height: 600px;
   width: 500px;
   margin-bottom: 25px;

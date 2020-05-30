@@ -8,7 +8,7 @@ Aim: To style Hobbies page */
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #E2D0EC;
+  background-color: #D3D3D3;
   position: fixed;
   height: 100%;
   text-decoration: auto;
@@ -28,7 +28,7 @@ Aim: To style Hobbies page */
   color: white;
 }
 body{
-  background-color:  #E2D0EC;
+  background-color: #D3D3D3;
 }
 
 
@@ -47,14 +47,14 @@ footer a{
   float: right;
 }
 footer a:hover:not(.active){
-  background-color: white;
+  background-color: #FF8671;
 }
 
 footer .active{
   background-color: black;
 }
 h1{
-  color: #C00AA8;
+  color: #FF8671;
 }
 #images{
   margin: 5px;
@@ -67,11 +67,4 @@ h1{
 #images img{
   width: 100%;
   height: auto;
-}
-.section3{
-  background-color: pink;
-  border-radius: 10px;
-}
-.section2{
-  background-color: #705878;
 }

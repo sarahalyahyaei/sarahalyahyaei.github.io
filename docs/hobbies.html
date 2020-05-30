@@ -4,16 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>My Hobbies</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../docs/CSS/hobbies.css">
   </head>
   <body>
     <div>
       <!-- Navigation Bar -->
     <nav>
-      <ul id="ul">
+      <ul id="ul" class="nav nav-pills nav-stacked">
         <li class="li"> <a href="../index.html">Home</a></li>
         <li class="li"> <a href="../docs/hobbies.html">Hobbies</a></li>
         <li class="li"> <a href="../docs/portfolio.html">Portfolio</a> </li>
@@ -21,34 +22,50 @@
     </nav>
   </div>
 
-  <div class="div" style="margin-left:25%; padding:1px 16px; height: 1000px;">
-    <h1>My hobbies and interests</h1>
-    <section class="section1">
-      <h2>Photography</h2>
-      <p>I used to taking photos since I was 12 years old and I have taken one workshop on photography
+  <div style="margin-left:25%; padding:1px 16px; height: 1000px;">
+    <!-- new changes with boostrap. -->
+    <h1><small>My hobbies and interests</small></h1>
+      <h2><small>Photography</small></h2>
+      <p class="text-danger">I used to take photos since I was 12 years old and I have taken one workshop on photography
         <br>
         Some of my work
         <br>
-        <div class="images">
-          <a href="https://www.flickr.com/photos/saronasaroo/">
+
+        <div class = "row">
+          <div class = "col-md-4">
+              <div class = "img-rounded">
+                <a href="https://www.flickr.com/photos/saronasaroo/">
         <img src="https://live.staticflickr.com/7647/26956460783_81f692e3eb_n.jpg" alt="My work">
-        <img src="https://live.staticflickr.com/722/32356506612_77ae28265c_n.jpg" href="https://www.flickr.com/photos/saronasaroo/32356506612/in/dateposted-public/" alt="Portsmouth">
-        <img src="https://live.staticflickr.com/7052/6896043445_492d5c3231_n.jpg" alt="Flowers" >
-        <img src="https://live.staticflickr.com/7397/14012957461_4594585ef9_n.jpg" alt="photos">
-        <img src="https://live.staticflickr.com/6221/6223753778_89df7441fb_n.jpg" alt="photos">
-        <img src="https://live.staticflickr.com/7164/6741684981_36a35f55a6_n.jpg" alt="photos">
-        <img src="https://live.staticflickr.com/5322/7385399906_c27d504cb4_n.jpg" alt="photos">
-
-      </a>
+              </a>
+              </div>
+            </div>
+            <div class = "col-md-4">
+                <div class = "img-rounded">
+          <img src="https://live.staticflickr.com/6221/6223753778_89df7441fb_n.jpg" alt="photos">
+        </div>
       </div>
-      </p>
-    </section>
+
+      <div class = "col-md-4">
+          <div class = "img-rounded">
+        <img src="https://live.staticflickr.com/7164/6741684981_36a35f55a6_n.jpg" alt="photos">
+      </div>
+    </div>
+
+            <div class = "col-md-4">
+                <div class = "img-rounded">
+        <img src="https://live.staticflickr.com/7397/14012957461_4594585ef9_n.jpg" alt="photos">
+              </div>
+          </div>
 
 
-    <section class="section2">
-      <h3>Vlogging</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/v9W3O41aiEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+
+</div>
+
+
+    <h3>Vlogging</h3>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"src="https://www.youtube.com/embed/v9W3O41aiEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <section class="section3">
       <h4>WordPress Blog</h4>
@@ -62,7 +79,7 @@
       <a href="https://www.youtube.com/channel/UC1CO7EflDGlpH6Ptty_sFoQ">Youtube</a>
       <a href="https://github.com/sarahalyahyaei">Github</a>
       <a href="https://www.flickr.com/photos/saronasaroo/page1">Flickr</a>
-      <a href="mailto:sarahalyahyaei@gmail.com?Subject=Hello%20Sarah" target="_top">Email</a>
+      <a href="mailto:sarahalyahyaei@gmail.com?Subject=Hello%20Sarah" target="_top"> <span class="glyphicon glyphicon-envelope"></span> Email</a>
     </footer>
   </div>
   </body>

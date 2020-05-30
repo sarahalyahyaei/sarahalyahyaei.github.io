@@ -24,7 +24,7 @@ Aim: To style Hobbies page */
   color: white;
 }
 .li a:hover:not(.active){
-  background-color: #ECAED5;
+  background-color: #C0B8C3;
   color: white;
 }
 body{
@@ -47,7 +47,7 @@ footer a{
   float: right;
 }
 footer a:hover:not(.active){
-  background-color: #FF8671;
+  background-color: #C0B8C3;
 }
 
 footer .active{

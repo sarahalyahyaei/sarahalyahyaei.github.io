@@ -7,7 +7,7 @@ Author: Sarah Alyahyaei */
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #E2D0EC;
+  background-color: #D3D3D3;
   position: fixed;
   height: 100%;
   text-decoration: auto;
@@ -23,11 +23,11 @@ Author: Sarah Alyahyaei */
   color: white;
 }
 .li a:hover:not(.active){
-  background-color: #ECAED5;
+   background-color: #C0B8C3;
   color: white;
 }
 body{
-  background-color:  #E2D0EC;
+  background-color:  #D3D3D3;
 
 }
 
@@ -47,7 +47,7 @@ footer a{
   float: right;
 }
 footer a:hover:not(.active){
-  background-color: white;
+    background-color: #C0B8C3;
 }
 
 footer .active{
@@ -62,46 +62,14 @@ footer .active{
 }
 /*images stling */
 img{
-  height: 500px;
-  width: 500px;
-}
-.img1{
-  height: 500px;
-  width: 500px;
-}
-.img2{
-  height: 400px;
+  height: 300px;
   width: 400px;
 }
-/*Background coloring */
-.skill1{
-  background-color: #7289DA;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.img1{
+  height: 300px;
+  width: 300px;
 }
-.skill2{
-  background-color: #66CDAA;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.skill3{
-  background-color: #9999FF;
-  border-radius: 10px;
-  margin-bottom: 10px;
-
-}
-.skill4{
-  background-color: #FF3366;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-.skill5{
-  border-radius: 10px;
-  margin-bottom: 10px;
-  background-color: #FFE4E1;
-}
-.skill6{
-  background-color: #D49793;
-  border-radius: 10px;
+.img2{
+  height: 450px;
+  width: 300px;
 }

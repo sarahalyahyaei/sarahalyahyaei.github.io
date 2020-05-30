@@ -6,8 +6,8 @@ Date: 9 May 2019
 
 #sarah{
     display: block;
-  height: 600px;
-  width: 500px;
+ height: 400px;
+  width: 300px;
   margin-bottom: 25px;
   box-shadow: 0 4px 8px  rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
   margin-left: auto;
@@ -16,14 +16,14 @@ Date: 9 May 2019
 .aboutme{
   text-align: center;
   padding: 10px 20px;
-  color: #CD1B1B;
+  color: #461A9B;
 }
 .about{
   position: relative;
 }
 
 body{
-  background-color: #E2D0EC;
+  background-color: #D3D3D3;
 }
 /*CSS style inspried from W3 School
 https://www.w3schools.com/css/css_navbar.asp */
@@ -48,7 +48,7 @@ https://www.w3schools.com/css/css_navbar.asp */
   color: white;
 }
 .li a:hover:not(.active){
-  background-color: #ECAED5;
+ background-color: #C0B8C3;
   color: white;
 }
 #about{
@@ -56,21 +56,6 @@ https://www.w3schools.com/css/css_navbar.asp */
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-#section1{
-  background-color: #9BE8CC;
-  border-radius: 10px;
-}
-#section2{
-  background-color: #AA8FE1;
-  border-radius: 10px;
-}
-#section3{
-  background-color: #9BD1E8;
-  border-radius: 10px;
-}
-#section4{
-  background-color: #FF7373;
-  border-radius: 10px;
 }
 footer{
   margin: 0;
@@ -87,7 +72,7 @@ footer a{
   float: right;
 }
 footer a:hover:not(.active){
-  background-color: white;
+ background-color: #C0B8C3;
 }
 
 footer .active{

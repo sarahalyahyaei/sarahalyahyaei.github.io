@@ -2,8 +2,6 @@
 Author: Sarah Alyahyaei */
 
 /*Navigation bar styling */
-/*CSS style inspried from W3 School
-https://www.w3schools.com/css/css_navbar.asp */
 #ul{
   list-style-type: none;
   margin: 0;
@@ -29,54 +27,6 @@ https://www.w3schools.com/css/css_navbar.asp */
   color: white;
 }
 body{
-  background-color:  #D3D3D3;
-
+  background-color: #D3D3D3;
 }
 
-/*Footer styling */
-footer{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: inherit;
-}
-
-footer a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  float: right;
-}
-footer a:hover:not(.active){
-  background-color: #C0B8C3;
-}
-
-footer .active{
-  background-color: black;
-}
-
-
-.link
-{
-  padding: 10px 20px;
-  color: green;
-  display: block;
-}
-/*images stling */
-img{
-  height: 300px;
-  width: 400px;
-}
-.img1{
-  height: 300px;
-  width: 300px;
-}
-.img2{
-  height: 450px;
-  width: 300px;
-}
-.img4{
-  height: 500px;
-  width: auto;
-}

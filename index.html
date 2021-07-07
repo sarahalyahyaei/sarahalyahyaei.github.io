@@ -8,43 +8,44 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../docs/CSS/home.css">
+      <link rel="stylesheet" href="./docs/CSS/home.css">
+      <link rel="stylesheet" href="./docs/CSS/nav.css">
+      <link rel="stylesheet" href="./docs/CSS/footer.css">
   </head>
   <body>
 
-    <div>
     <nav>
-      <ul id="ul" class="nav nav-pills nav-stacked">
+      <ul id="ul"  class="nav nav-pills nav-stacked">
         <li class="li"> <a href="#about">Home</a></li>
-        <li class="li"> <a href="../docs/hobbies.html">Hobbies</a> </li>
-        <li class="li"> <a href="../docs/portfolio.html">Portfolio</a> </li>
+        <li class="li"> <a href="./docs/hobbies.html">Hobbies</a> </li>
+        <li class="li"> <a href="./docs/portfolio.html">Portfolio</a> </li>
       </ul>
     </nav>
-  </div>
 
-    <div class="about" style ="margin-left:25%; padding:1px 16px; height: 1000px;">
-      <div class="sarah">
-      <img id ="sarah"src="../images/sarahh.JPG" alt="About me">
-      <p class="aboutme"> <b>Sarah Alyahyaei.
-        <br>
-        Omani
-        <br>
-        22 Years
-        <br>
-      Student at Newcastle Universit - School of Computing
-    </b>
+
+    <div class="about"style="margin-left:25%; padding:1px 16px; height: 1000px;">
+      <div class="row">
+        <div class="col-md-4 col-md-4">
+          <p><h1>Sarah Alyahyaei</h1>
+          Software developer, I enjoy coding with Java and C++.
+          </p>
+        </div>
       </p>
     </div>
-      <section id="section1">
-        <h1>Education</h1>
-        <p>
-          <ul>
-            <li>Studied intensive english course in EF Bournmouth</li>
-            <li>Studied foundation in physical sceisce and engineering in INTO Newcastle University</li>
-            <li>Currently, Studying Computer Sceincs with Security and Reslienese</li>
-          </ul>
-        </p>
-      </section>
+
+    <div class="row">
+      <div class="col-md-4 col-md">
+          <h2>Education</h2>
+          <p>
+            <ul>
+              <li>Studied intensive english course in EF Bournmouth</li>
+              <li>Studied foundation in physical sceisce and engineering in INTO Newcastle University</li>
+              <li>Graduated with Computer Sceincs with Security and Reslienese</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
 
       <section id="section2">
         <h2>Languages</h2>
@@ -52,25 +53,28 @@
           <li>Arabic</li>
           <li>English</li>
           <li>Turkish</li>
+          <li>Spanish</li>
         </ul>
       </section>
 
-      <section id="section3">
+      <div class"row">
         <h3>Skills</h3>
         <ul>
+          <h4>Technical Skills</h4>
           <li>HTML</li>
-          <li>JavaScribt</li>
           <li>CSS</li>
           <li>Java</li>
-          <li>WordPress</li>
-          <li>Assembly Language</li>
+          <li>C++</li>
+        </ul>
+
+        <ul>
+          <h4>Soft Skills</h4>
           <li>Communation</li>
           <li>Leadership</li>
-          <li>Photography</li>
           <li>Teamwork</li>
           <li>Testing</li>
         </ul>
-      </section>
+      </div>
 
       <section id="section4">
         <h4>Skills I have learnt during University</h4>
@@ -79,6 +83,7 @@
         </p>
       </section>
 
+<div class="sticky-bottom">
       <footer>
         <a href="https://www.linkedin.com/in/sarah-a-13506b145">LinkedIn</a>
         <a href="https://www.youtube.com/channel/UC1CO7EflDGlpH6Ptty_sFoQ">Youtube</a>
@@ -86,6 +91,8 @@
         <a href="https://www.flickr.com/photos/saronasaroo/page1">Flickr</a>
         <a href="mailto:sarahalyahyaei@gmail.com?Subject=Hello%20Sarah" target="_top">  <span class="glyphicon glyphicon-envelope"></span> Email </a>
       </footer>
+</div>
     </div>
   </body>
 </html>
+

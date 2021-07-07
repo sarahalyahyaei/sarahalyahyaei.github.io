@@ -1,0 +1,22 @@
+
+footer{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+footer a{
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+}
+footer a:hover:not(.active){
+  background-color: #C0B8C3;
+}
+
+footer .active{
+  background-color: black;
+}

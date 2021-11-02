@@ -5,7 +5,7 @@ Date: 9 May 2019
 */
 
 #sarah{
-    display: block;
+  display: block;
   height: 400px;
   width: 300px;
   margin-bottom: 25px;
@@ -16,20 +16,32 @@ Date: 9 May 2019
 .aboutme{
   text-align: center;
   padding: 10px 20px;
-  color: #461A9B;
 }
 .about{
   position: relative;
 }
+h4 ,h1 , h2, h3{
+  color: #FFFFF0;
+}
+li, p.int , p{
+  color: #585C29;
+}
+p.int{
+  text-align: center;
+}
 
 body{
-  background-color: #D3D3D3;
+  position: relatives;
 }
 /*CSS style inspried from W3 School
 https://www.w3schools.com/css/css_navbar.asp */
 #about{
-  background-color: lightblue;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Geneva', sans-serif;
   margin: 0;
+}
+
+.award{
+  height: 300px;
+  width:450px;
 }
 

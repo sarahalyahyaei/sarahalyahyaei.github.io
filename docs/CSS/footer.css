@@ -1,20 +1,20 @@
-
 footer{
   margin: 0;
   padding: 0;
   overflow: hidden;
+  bottom: 0;
   background-color: inherit;
 }
 
 footer a{
   display: block;
-  color: grey;
+  color: #FA6D6E;
   text-align: center;
   padding: 14px 16px;
   float: right;
 }
 footer a:hover:not(.active){
-  background-color: #C0B8C3;
+  background-color: #FEE5E5;
 }
 
 footer .active{

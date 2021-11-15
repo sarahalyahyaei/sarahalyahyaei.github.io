@@ -5,11 +5,17 @@ Author: Sarah Alyahyaei */
 /*CSS style inspried from W3 School
 https://www.w3schools.com/css/css_navbar.asp */
 
-h2 {
+h3{
   color: #FA6D6E
 }
 .row p, li{
     color: #FFFFF0;
+}
+p{
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    color: white;
+
 }
 .link
 {
@@ -59,7 +65,4 @@ img{
 @keyframes blink-caret {
   from,to {border-color: transparent}
   50% {border-color:white}
-}
-#taxProjtect{
-  color: white
 }

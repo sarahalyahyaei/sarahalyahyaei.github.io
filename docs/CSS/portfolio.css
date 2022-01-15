@@ -40,7 +40,10 @@ img{
   height: 500px;
   width: auto;
 }
-
+.protoype_fashion{
+  height: 300px;
+  width: 500px;
+}
 /* https://css-tricks.com/snippets/css/typewriter-effect/*/
 .typing_in_400bytes h1{
   color: #F0F0FF;

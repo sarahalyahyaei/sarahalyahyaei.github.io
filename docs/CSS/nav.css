@@ -1,0 +1,27 @@
+/*Navigation bar styling */
+#ul{
+  /*list-style-type: none;*/
+/*  margin: 0;*/
+  width:100%;
+  box-shadow: 6px 3px 3px white;
+  background-color: inherit;
+  position:relative;
+  opacity: 60%;
+/*  text-decoration: auto;*/
+}
+.li a{
+  display: block;
+  color: black;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+.li a.active{
+  color: white;
+}
+.li a:hover:not(.active){
+  background-color: #FEE5E5;
+  color: black;
+}
+body{
+  background-color: #C3B6cb;
+}

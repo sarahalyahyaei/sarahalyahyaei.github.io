@@ -1,0 +1,23 @@
+footer{
+  overflow: hidden;
+  bottom: 10%;
+  width: 100%;
+  position:static;
+  background-color: inherit;
+}
+
+footer a{
+  display: block;
+  color: #2C206C;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+}
+footer a:hover:not(.active){
+  background-color: #FEE5E5;
+}
+
+footer .active{
+  background-color: black;
+}
